@@ -16,3 +16,11 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')
 );
+
+/* Force the unmounting of app component*/
+setTimeout(() => {
+  ReactDOM.render(
+    <h2> After app unmount </h2>,
+    document.getElementById('root')
+  );
+}, 4000);
