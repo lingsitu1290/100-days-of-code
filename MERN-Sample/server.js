@@ -14,7 +14,9 @@ server.set("view engine", "ejs");
 
 // Root route using ejs
 server.get("/", (req, res) => {
-  res.render("index")
+  res.render("index",{
+    content: "Hello Express and EJS"
+  });
 });
 
 // Using middleware to render a html file
