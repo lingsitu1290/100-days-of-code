@@ -1,16 +1,24 @@
 // const express = require("express");
 import express from "express";
-import apiRouter from './api';
+import apiRouter from "./api";
 // import fs from "fs";
 
 const server = express();
 
-server.get('/',(req, res) => {
-  res.send('Hello');
+// server.get("/",(req, res) => {
+//   res.send("Hello");
+// });
+
+// Set up EJS (Embedded JavaScript) will look for ejs files under a views folder
+server.set("view engine", "ejs");
+
+// Root route using ejs
+server.get("/", (req, res) => {
+  res.render("index")
 });
 
 // Using middleware to render a html file
-server.use('/api', apiRouter);
+server.use("/api", apiRouter);
 server.use(express.static("public"))
 
 // Rendering a html file
@@ -21,5 +29,5 @@ server.use(express.static("public"))
 // });
 
 server.listen(3000, () => {
-  console.info('Express listening on port 3000');
+  console.info("Express listening on port 3000");
 });
