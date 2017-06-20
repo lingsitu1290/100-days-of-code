@@ -1,10 +1,13 @@
+/* Start script use nodemon and use babel node instead of just node. And excluding the public folder*/
+/* webpack -wd transfer source files into a bundled file for the browser */
 {
   "name": "day-1-beginning-mern",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon —exec babel-node server.js —ignore public/"
+    "start": "nodemon --exec babel-node server.js —ignore public/",
+    "dev": "webpack -wd"
   },
   "author": "",
   "license": "ISC",
