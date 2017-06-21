@@ -24,15 +24,11 @@
 1. [Asynchronous Task in Flask Using Celery](https://www.youtube.com/watch?v=iwxzilyxTbQ)
 2. Lynda MERN
 
+<!-- To be added -->
 <!-- **Link(s) to work**: [Express App] -->
 
+### Day 2: June 20, 2017
 
-<!-- ### Day 1: June 27, Monday
+**Today's Progress**: Continuing on MERN application. Worked through some EJS templating. Started to review React basics again including making a class component, props, and state.
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence) -->
+**Thoughts**: Went back to reconfigured webpack, eslint, etc. Revisited yesterday's MERN introduction with install and configuring while progressing to React basics. 
