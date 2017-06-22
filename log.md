@@ -31,4 +31,16 @@
 
 **Today's Progress**: Continuing on MERN application. Worked through some EJS templating. Started to review React basics again including making a class component, props, and state.
 
-**Thoughts**: Went back to reconfigured webpack, eslint, etc. Revisited yesterday's MERN introduction with install and configuring while progressing to React basics. 
+**Thoughts**: Went back to reconfigured webpack, eslint, etc. Revisited yesterday's MERN introduction with install and configuring while progressing to React basics.
+
+<!-- To be added -->
+<!-- **Link(s) to work**: [Express App] -->
+
+### Day 3: June 21, 2017
+
+**Today's Progress**: Since React is the less familiar section of the MERN stack, I spent most of my time today solely on React without the noise of the Express and Node. Going through JSX and props again through another tutorial through Udemy. Also going through the application set up again with babel and webpack.
+
+**Thoughts**: Having multiple explanations and repeating these concepts definitely help in the learning process. 
+
+<!-- To be added -->
+<!-- **Link(s) to work**: [Express App] -->
