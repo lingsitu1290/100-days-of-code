@@ -25,7 +25,7 @@
 2. Lynda MERN
 
 <!-- To be added -->
-<!-- **Link(s) to work**: [Express App] -->
+**Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
 
 ### Day 2: June 20, 2017
 
@@ -33,14 +33,27 @@
 
 **Thoughts**: Went back to reconfigured webpack, eslint, etc. Revisited yesterday's MERN introduction with install and configuring while progressing to React basics.
 
-<!-- To be added -->
-<!-- **Link(s) to work**: [Express App] -->
+**Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
 
 ### Day 3: June 21, 2017
 
 **Today's Progress**: Since React is the less familiar section of the MERN stack, I spent most of my time today solely on React without the noise of the Express and Node. Going through JSX and props again through another tutorial through Udemy. Also going through the application set up again with babel and webpack.
 
-**Thoughts**: Having multiple explanations and repeating these concepts definitely help in the learning process. 
+**Thoughts**: Having multiple explanations and repeating these concepts definitely help in the learning process.
 
 <!-- To be added -->
-<!-- **Link(s) to work**: [Express App] -->
+**Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/ReduxSimpleStarter)
+
+### Day 4: June 23, 2017
+
+**Today's Progress**: Reviewed array data structure code challenges. And continued on expanding on React.
+
+**Thoughts**: Started to review code challenges again.
+
+### Day 5: June 25, 2017
+
+**Today's Progress**: Reviewed array data structure code challenges. Continued to work on MERN stack tutorials. Rendered sample json file into application.
+
+**Thoughts**: Need to review permutations and combinations. In addition to reviewing recursion. One of the hardest concepts for me to understanding.
+
+**Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
