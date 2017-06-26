@@ -1,31 +1,19 @@
 import React from "react";
 import Header from "./Header"
 import ContestPreview from "./ContestPreview"
-
-// const App = () => {
-//   return (
-//     <div className="App">
-//       <Header message="Naming Contests"/>
-//       <div>
-//         ...
-//       </div>
-//     </div>
-//   );
-// };
+import data from "../testData"
 
 // Change to react class to introduce state or life cycle of the component
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = { test: 42 };
-  // }
   state = {
-    pageHeader: 'Naming Contests'
+    pageHeader: 'Naming Contests',
+    contests: []
   };
 
   componentDidMount(){
-    console.log("did Mount");
-    // debugger;
+    this.setState({
+      contests: data.contests
+    });
   }
 
   componentWillUnmount(){
@@ -38,8 +26,8 @@ class App extends React.Component {
       <div className="App">
         <Header message={this.state.pageHeader} />
         <div>
-          {this.props.contests.map(contest =>
-              <ContestPreview {...contest} />
+          {this.state.contests.map(contest =>
+              <ContestPreview key={contest.id} {...contest} />
           )}
         </div>
       </div>
