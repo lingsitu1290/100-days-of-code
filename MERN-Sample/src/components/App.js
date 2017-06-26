@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header"
+import ContestPreview from "./ContestPreview"
 
 // const App = () => {
 //   return (
@@ -24,12 +25,12 @@ class App extends React.Component {
 
   componentDidMount(){
     console.log("did Mount");
-    debugger;
+    // debugger;
   }
 
   componentWillUnmount(){
     console.log("will Unmount");
-    debugger;
+    // debugger;
   }
 
   render(){
@@ -37,8 +38,9 @@ class App extends React.Component {
       <div className="App">
         <Header message={this.state.pageHeader} />
         <div>
-          // {this.state.test}
-          ...
+          {this.props.contests.map(contest =>
+              <ContestPreview {...contest} />
+          )}
         </div>
       </div>
     );
