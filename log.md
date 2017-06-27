@@ -57,3 +57,11 @@
 **Thoughts**: Need to review permutations and combinations. In addition to reviewing recursion. One of the hardest concepts for me to understanding.
 
 **Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
+
+### Day 5: June 26, 2017
+
+**Today's Progress**: Reviewed permutation problem. Completed rendering json from state and also fetching data from API using axios in MERN example.
+
+**Thoughts**: Need to review recursion and review MERN beginnings to consolidate knowledge.
+
+**Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
