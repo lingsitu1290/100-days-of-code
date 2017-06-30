@@ -58,10 +58,26 @@
 
 **Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
 
-### Day 5: June 26, 2017
+### Day 6: June 26, 2017
 
 **Today's Progress**: Reviewed permutation problem. Completed rendering json from state and also fetching data from API using axios in MERN example.
 
 **Thoughts**: Need to review recursion and review MERN beginnings to consolidate knowledge.
 
 **Link(s) to work**: [Express App](https://github.com/lingsitu1290/100-days-of-code/tree/master/MERN-Sample)
+
+### Day 7: June 28, 2017
+
+**Today's Progress**: Reviewed get all permutations problem again. Reviewed linked list class. Reviewed many of the data structures in JavaScript. Reviewed JavaScript array and string manipulation problems.  
+
+**Thoughts**: Ramping up on JavaScript syntax again while reviewing data structures. Another concept I need to review are greedy algorithms. 
+
+**Link(s) to work**: [Code Challenges](https://github.com/lingsitu1290/code-challenges/blob/master/udacity_linked_list.py)
+
+### Day 8: June 29, 2017
+
+**Today's Progress**: Reviewed binary search trees. Reviewed find the second largest in a binary search tree. Reviewed data structures in JavaScript.
+
+**Thoughts**: Seeing all the data structures in JavaScript versus Python really helps to understand the differences and similarities between the languages. For example, to create a class in ES5, we create it with a JavaScript function paired with prototypes. To add methods to this class, we update the class prototype to include the method. For example: To add the speak method to the Animal class : Animal.prototype.speak = function(){...}. In ES6, we see the introduction to class and constructor (Python's Class and  def __init__ deja vu?). Love it! Also need to hop back on the MERN train again.
+
+**Link(s) to work**: [Code Challenges](https://github.com/lingsitu1290/code-challenges/blob/master/second_largest_bst.py)
